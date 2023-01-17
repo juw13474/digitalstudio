@@ -1,0 +1,110 @@
+
+.navbar{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar ul{
+list-style-type: none;
+}
+.navbar ul li{
+display: inline;
+float: left;
+padding: 49px;
+
+
+}
+h1{
+color: white;
+padding-left: 60px;
+padding-right: 60px;
+}
+.navbar ul li a{
+text-decoration: none;
+color: white;
+}
+.dropdown a:hover{
+color: white;
+
+}
+.dropdown ul {
+background: transparent;
+}
+.dropdown ul li{
+padding:0;
+background-color: transparent;
+
+}
+.dropdown ul li a:hover{
+background: transparent;
+}
+.footer ul
+  {
+    list-style-type: bullets;
+    ;
+  } 
+  .footer ul li a{
+    text-decoration: none;
+    color: white;
+    
+
+  }
+  .links ul li{
+    float:left;
+    padding: 25px;
+    margin-top: -10%;
+    margin-left: 2%;
+  }
+.text-center p{
+  margin-top: -3%;
+}
+.icon-bar a{
+text-decoration: none;
+color: white;
+padding: 12px;
+border: 1px solid white;
+border-radius: 25px;
+margin: 2%;
+
+}
+  @media screen and (max-width: 600px) {
+    .navbar ul li{
+      width: 100%;
+      padding: 5px;
+    }
+    .footer .col-3{
+        width: 100%;
+        
+    }
+    .footer .links ul li{
+        width: 100%;
+    }
+    .title .col-6{
+width: 100%;
+margin-top: 10%;
+    }
+
+    .title .col-4{
+        width: 100%;
+        margin-top: 10%;
+            }
+
+            .mt-5 .col-5{
+                width: 100%;
+        margin-top: 10%;
+            }
+            .mt-5 .col-6{
+                width: 100%;
+        margin-top: 10%;
+            }
+            .mt-5 .col-4{
+                width: 100%;
+        margin-top: 10%;
+            }
+            .row .col-2{
+width: 100%;
+margin-top: 10%;
+            }
+            .row .col-5{
+                width: 100%;
+                margin-top: 10%;
+            }
+  }

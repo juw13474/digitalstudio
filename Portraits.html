@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portraits</title>
+   <link rel="stylesheet" href="portfolio.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+       
+    }
+    .container{
+        width: 100%;
+        display: grid;
+        grid-auto-flow: dense;
+        grid-template:"1fr 1fr 1fr 1fr 1fr" 33.33vh
+        "1fr 1fr 1fr 1fr 1fr" 33.33vh
+         "1fr 1fr 1fr 1fr 1fr" 33.33vh;
+         grid-gap:5px;
+        
+        
+        
+    }
+    .container .box img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+       
+      
+         transition: 0.5s ease-in-out;
+
+    }
+    .container .box img:hover{
+        transform: scale(1.2);
+    }
+   
+    .container .box{
+        position: relative;
+        background-color: gray;
+        
+    }
+    .container .box.a{
+        grid-row: span 2;
+         overflow: hidden;
+
+    }
+    .container .box.b,
+    .container .box.f,
+    .container .box.h,
+    .container .box.j
+    {
+        grid-column: span 2;
+        overflow: hidden;
+
+    }
+    .container .box.c,
+    .container .box.d,
+    .container .box.e,.container .box.i,
+    .container .box.g{
+overflow: hidden;
+    }
+</style>
+<body class="bg-dark">
+
+
+
+    <div class="top">
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><div class="dropdown">
+                    <a class="btn  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                      Portfolio
+                    </a>
+                  
+                    <ul  class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <li><a class="dropdown-item" href="Wedding.html">Wedding</a></li>
+                      <li><a class="dropdown-item" href="Portraits.html">Portraits</a></li>
+                      <li><a class="dropdown-item" href="ceremony.html">Ceremony</a></li>
+                     
+                    </ul>
+                  </div></li>
+                <li><h1 class="title animate__animated animate__rubberBand"> Portraits</h1></li>
+                <li><a href="Experience.html">Experience</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+    
+            </ul>
+    
+          
+        </div>
+    </div>
+   <br><br>
+    <div class="container animate__animated animate__backInDown">
+        
+        
+        <div class="box a"><img src="Portraits/10.jpg"></div>
+   
+        <div class="box b"><img src="Portraits/2.jpg"></div>
+        <div class="box c"><img src="Portraits/12.jpg"></div>
+        <div class="box d"><img src="Portraits/19.jpg"></div>
+        <div class="box e"><img src="Portraits/14.jpg"></div>
+        <div class="box f"><img src="Portraits/4.jpg"></div>
+        <div class="box g"><img src="Portraits/13.jpg"></div>
+        <div class="box h"><img src="Portraits/1.jpg"></div>
+        <div class="box i"><img src="Portraits/18.jpg"></div>
+        <div class="box j"><img src="Portraits/5.jpg"></div>
+        
+       
+    </div>
+    <div class="container">
+        
+        
+        <div class="box a"><img src="Portraits/9.jpg"></div>
+   
+        <div class="box b"><img src="Portraits/23.jpg"></div>
+        <div class="box c"><img src="Portraits/17.jpg"></div>
+        <div class="box d"><img src="Portraits/7.jpg"></div>
+        <div class="box e"><img src="Portraits/20.jpg"></div>
+        <div class="box f"><img src="Portraits/21.jpg"></div>
+        <div class="box g"><img src="Portraits/8.jpg"></div>
+        <div class="box h"><img src="Portraits/22.jpg"></div>
+        <div class="box i"><img src="Portraits/15.jpg"></div>
+        <div class="box j"><img src="Portraits/3.jpg"></div>
+        
+       
+    </div>
+</body>
+</html>
